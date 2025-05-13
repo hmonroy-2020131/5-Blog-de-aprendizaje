@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6823da72363d8291985e6989"
+  },
+  "name": "Curso de Desarrollo Web",
+  "description": "Un curso introductorio al desarrollo web con HTML, CSS y JavaScript.",
+  "createdAt": {
+    "$date": "2025-05-13T23:49:06.264Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T23:49:06.264Z"
+  }
+}]

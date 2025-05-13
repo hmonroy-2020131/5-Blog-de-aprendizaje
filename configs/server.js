@@ -6,8 +6,8 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import { dbConnection } from './mongo.js';
 import limiter from '../src/middlewares/validar-cant-peticion.js';
+import courseRoutes from '../src/course/course.routes.js';
 
- 
 const middlewares = (app) => {
     app.use(express.urlencoded({ extended: false }));
     app.use(cors());
@@ -18,7 +18,7 @@ const middlewares = (app) => {
 }
 
 const routes =(app) => {
-
+    app.use("/Blog/v1/courses", courseRoutes);
 }
  
  

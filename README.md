@@ -1,19 +1,19 @@
-# 🌐 Server conectado 🚀
+# 🧠 Course terminado y funcional ✅
 
-![Estado del servidor](https://img.shields.io/badge/Estado-Conectado-brightgreen?style=for-the-badge&logo=serverfault)
+![Estado del curso](https://img.shields.io/badge/Estado-Terminado-brightgreen?style=for-the-badge&logo=serverfault)
 ![Versión](https://img.shields.io/badge/Versión-1.0.0-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
-## 🔧 Descripción
+## 📘 Descripción
 
-Este repositorio indica que el **servidor está conectado correctamente** y funcionando sin problemas.  
-Es ideal para pruebas de conexión, salud de servicios o simplemente como un monitor visual en tus proyectos.
+Este repositorio contiene el backend completo de un curso que ha sido **terminado exitosamente y se encuentra en funcionamiento**.  
+Ideal para referencias, pruebas locales o implementación directa.
 
 ---
 
 ## ✅ Estado actual
 
 ```bash
-🟢 Server conectado exitosamente.
+🟢 Backend del curso terminado y funcional.
