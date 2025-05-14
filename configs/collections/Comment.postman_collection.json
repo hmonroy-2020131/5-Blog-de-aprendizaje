@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "e49d65fc-fa1a-4c21-966b-f53d9c4b9794",
+		"name": "Comment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42630298"
+	},
+	"item": [
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"post\": \"6823e19873e185b1a4d5a1b0\",  \r\n    \"authorName\": \"Elmer Santos\",\r\n    \"content\": \"Excelente artículo sobre React, muy útil.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"authorName\": \"Jose Cortez\",\r\n    \"content\": \"Muy buen artículo, una excelente introducción a React.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/comments/6823e56d4c13106bf4ce70f0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"comments",
+						"6823e56d4c13106bf4ce70f0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/comments/6823e56d4c13106bf4ce70f0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"comments",
+						"6823e56d4c13106bf4ce70f0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar por publicacion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"post\": \"6823e19873e185b1a4d5a1b0\",  // ID de una publicación existente\r\n    \"authorName\": \"John Doe\",\r\n    \"content\": \"Excelente artículo sobre React, muy útil.\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/comments/post/6823e19873e185b1a4d5a1b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"comments",
+						"post",
+						"6823e19873e185b1a4d5a1b0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

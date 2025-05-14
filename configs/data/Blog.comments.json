@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6823e4a94c13106bf4ce70e1"
+  },
+  "post": {
+    "$oid": "6823e19873e185b1a4d5a1b0"
+  },
+  "authorName": "Brandon soberanis",
+  "content": "Excelente artículo sobre React, muy útil.",
+  "createdAt": {
+    "$date": "2025-05-14T00:32:41.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T00:32:41.762Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6823e4b44c13106bf4ce70e5"
+  },
+  "post": {
+    "$oid": "6823e19873e185b1a4d5a1b0"
+  },
+  "authorName": "Luis Mejia",
+  "content": "Excelente artículo sobre React, muy útil.",
+  "createdAt": {
+    "$date": "2025-05-14T00:32:52.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T00:32:52.153Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6823e56d4c13106bf4ce70f0"
+  },
+  "post": {
+    "$oid": "6823e19873e185b1a4d5a1b0"
+  },
+  "authorName": "Elmer Santos",
+  "content": "Excelente artículo sobre React, muy útil.",
+  "createdAt": {
+    "$date": "2025-05-14T00:35:57.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T00:35:57.502Z"
+  }
+}]
