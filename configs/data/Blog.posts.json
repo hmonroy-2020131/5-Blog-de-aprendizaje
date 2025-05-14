@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6823e19873e185b1a4d5a1b0"
+  },
+  "title": "Introducción a React",
+  "description": "Un artículo sobre los fundamentos de React y cómo crear una aplicación básica.",
+  "course": {
+    "$oid": "6823da72363d8291985e6989"
+  },
+  "createdAt": {
+    "$date": "2025-05-14T00:19:36.315Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T00:19:36.315Z"
+  }
+}]

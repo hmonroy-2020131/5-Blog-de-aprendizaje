@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "9248d15f-ecac-4c3b-8e62-0f85173390be",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42630298"
+	},
+	"item": [
+		{
+			"name": "Crear",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Introducción a React\",\r\n    \"description\": \"Un artículo sobre los fundamentos de React y cómo crear una aplicación básica.\",\r\n    \"course\": \"6823da72363d8291985e6989\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Introducción a React\",\r\n    \"description\": \"Un artículo más detallado sobre las características avanzadas de React.\",\r\n    \"course\": \"6823da72363d8291985e6989\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/posts/6823e19873e185b1a4d5a1b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"posts",
+						"6823e19873e185b1a4d5a1b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/posts/6823e19873e185b1a4d5a1b0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"posts",
+						"6823e19873e185b1a4d5a1b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/Blog/v1/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"Blog",
+						"v1",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
