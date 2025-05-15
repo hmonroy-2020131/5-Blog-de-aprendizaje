@@ -110,21 +110,36 @@ export const deletePost = async (req, res = response) => {
     }
 };
 
-export const getPosts = async (req, res = response) => {
-    try {
-        const posts = await Post.find().populate('course'); 
+export const getPosts = async (req, res) => {
+  try {
+    const { course } = req.query;
 
-        res.status(200).json({
-            success: true,
-            posts
-        });
+    let filter = {};
 
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({
-            success: false,
-            msg: "Error fetching posts ❌",
-            error
+    if (course) {
+      
+      const foundCourse = await Course.findOne({ name: { $regex: `^${course}$`, $options: "i" } });
+      if (!foundCourse) {
+        return res.status(404).json({
+          success: false,
+          msg: `Curso '${course}' no encontrado`,
         });
+      }
+      filter.course = foundCourse._id;
     }
+
+    const posts = await Post.find(filter).populate("course", "name description");
+
+    res.status(200).json({
+      success: true,
+      posts,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({
+      success: false,
+      msg: "Error obteniendo publicaciones",
+      error: error.message || error,
+    });
+  }
 };
