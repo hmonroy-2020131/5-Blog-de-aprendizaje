@@ -1,13 +1,39 @@
 [{
   "_id": {
-    "$oid": "6823da72363d8291985e6989"
+    "$oid": "6827e8f2590df6673bae82da"
   },
-  "name": "Curso de Desarrollo Web",
-  "description": "Un curso introductorio al desarrollo web con HTML, CSS y JavaScript.",
+  "name": "TALLER III",
+  "description": "El curso de Taller III pretende implementar proyectos y actividades que enfoquen al alumno a un ambiente práctico de la programación.",
   "createdAt": {
-    "$date": "2025-05-13T23:49:06.264Z"
+    "$date": "2025-05-17T01:40:02.900Z"
   },
   "updatedAt": {
-    "$date": "2025-05-13T23:49:06.264Z"
+    "$date": "2025-05-17T01:40:02.900Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6827e930590df6673bae82dc"
+  },
+  "name": "TECNOLOGÍA III",
+  "description": "El curso de Tecnología III pretende llevarlo por la teoría de cada tema a aplicar durante la clase de taller, siendo la teoría lo primero a entender, para luego proceder a la práctica.",
+  "createdAt": {
+    "$date": "2025-05-17T01:41:04.458Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T01:41:04.458Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6827e97c590df6673bae82de"
+  },
+  "name": "PRÁCTICA SUPERVISADA",
+  "description": "El curso de Práctica supervisada pretende conjuntar las áreas de Taller III y Tecnología III, dándole un enfoque más externo, y acercando a la realidad de la industria de la tecnología.",
+  "createdAt": {
+    "$date": "2025-05-17T01:42:20.519Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T01:42:20.519Z"
   }
 }]

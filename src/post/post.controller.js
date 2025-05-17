@@ -143,3 +143,19 @@ export const getPosts = async (req, res) => {
     });
   }
 };
+
+export const getPostById = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const post = await Post.findById(id).populate("course", "name description");
+
+    if (!post) {
+      return res.status(404).json({ success: false, msg: "Publicación no encontrada" });
+    }
+
+    res.json({ success: true, publication: post });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false, msg: "Error obteniendo publicación", error });
+  }
+};

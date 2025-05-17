@@ -1,16 +1,48 @@
 [{
   "_id": {
-    "$oid": "6823e19873e185b1a4d5a1b0"
+    "$oid": "6827ea15590df6673bae82e3"
   },
-  "title": "Introducción a React",
-  "description": "Un artículo sobre los fundamentos de React y cómo crear una aplicación básica.",
+  "title": "Elmer Santos",
+  "description": "En este curso el estudiante tendra la capacidad de desarrollar aplicaciones con tecnología Web y móvil,\nmediante los conocimientos tanto teóricos como prácticos de Node.js, ReactJs, Railway y utilizando el\nlenguaje de programación JavaScript, esto implica que el estudiante tendrá la capacidad de poder\ninstalar y configurar un Web Api, una página web, conjunto a la capacidad de conectar sus aplicaciones\na bases de datos NoSQL y conexión en la nube.",
   "course": {
-    "$oid": "6823da72363d8291985e6989"
+    "$oid": "6827e8f2590df6673bae82da"
   },
   "createdAt": {
-    "$date": "2025-05-14T00:19:36.315Z"
+    "$date": "2025-05-17T01:44:53.789Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T00:19:36.315Z"
+    "$date": "2025-05-17T01:44:53.789Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6827ea27590df6673bae82e7"
+  },
+  "title": "Elmer Santos",
+  "description": "El curso de Tecnología III pretende llevarlo por la teoría de cada tema a aplicar durante la clase de taller, siendo la teoría lo primero a entender, para luego proceder a la práctica.",
+  "course": {
+    "$oid": "6827e930590df6673bae82dc"
+  },
+  "createdAt": {
+    "$date": "2025-05-17T01:45:11.010Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T01:45:11.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6827ea36590df6673bae82eb"
+  },
+  "title": "Elmer Santos",
+  "description": "El curso de Práctica supervisada pretende conjuntar las áreas de Taller III y Tecnología III, dándole un enfoque más externo, y acercando a la realidad de la industria de la tecnología.",
+  "course": {
+    "$oid": "6827e97c590df6673bae82de"
+  },
+  "createdAt": {
+    "$date": "2025-05-17T01:45:26.476Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T01:45:26.476Z"
   }
 }]

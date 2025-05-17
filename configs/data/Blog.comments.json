@@ -1,48 +1,48 @@
 [{
   "_id": {
-    "$oid": "6823e4a94c13106bf4ce70e1"
+    "$oid": "6827eca4590df6673bae835b"
   },
   "post": {
-    "$oid": "6823e19873e185b1a4d5a1b0"
+    "$oid": "6827ea15590df6673bae82e3"
   },
-  "authorName": "Brandon soberanis",
-  "content": "Excelente artículo sobre React, muy útil.",
+  "authorName": "Eithan Monroy",
+  "content": "Muy buen profesor, explica muy bien y se nota que está enseñando de forma clara y efectiva.",
   "createdAt": {
-    "$date": "2025-05-14T00:32:41.762Z"
+    "$date": "2025-05-17T01:55:48.920Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T00:32:41.762Z"
+    "$date": "2025-05-17T01:55:48.920Z"
   }
 },
 {
   "_id": {
-    "$oid": "6823e4b44c13106bf4ce70e5"
+    "$oid": "6827ecbe590df6673bae8367"
   },
   "post": {
-    "$oid": "6823e19873e185b1a4d5a1b0"
+    "$oid": "6827ea27590df6673bae82e7"
   },
   "authorName": "Luis Mejia",
-  "content": "Excelente artículo sobre React, muy útil.",
+  "content": "Excelente enfoque del profesor, enseña la teoría de forma clara antes de pasar a la práctica, lo cual ayuda mucho a entender mejor.",
   "createdAt": {
-    "$date": "2025-05-14T00:32:52.153Z"
+    "$date": "2025-05-17T01:56:14.923Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T00:32:52.153Z"
+    "$date": "2025-05-17T01:56:14.923Z"
   }
 },
 {
   "_id": {
-    "$oid": "6823e56d4c13106bf4ce70f0"
+    "$oid": "6827ecd5590df6673bae8373"
   },
   "post": {
-    "$oid": "6823e19873e185b1a4d5a1b0"
+    "$oid": "6827ea36590df6673bae82eb"
   },
-  "authorName": "Elmer Santos",
-  "content": "Excelente artículo sobre React, muy útil.",
+  "authorName": "Pablo Menéndez ",
+  "content": "Muy buen profesor, está preparando a los estudiantes para el mundo real de la industria con un enfoque práctico y completo.",
   "createdAt": {
-    "$date": "2025-05-14T00:35:57.502Z"
+    "$date": "2025-05-17T01:56:37.319Z"
   },
   "updatedAt": {
-    "$date": "2025-05-14T00:35:57.502Z"
+    "$date": "2025-05-17T01:56:37.319Z"
   }
 }]

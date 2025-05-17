@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { createPost, updatePost, deletePost, getPosts } from "./post.controller.js";
+import { createPost, updatePost, deletePost, getPosts, getPostById } from "./post.controller.js";
 import { validarCampos } from "../middlewares/validar-campos.js";
 import { existingCourse } from "../helpers/db-validator.js"; 
 
@@ -41,5 +41,7 @@ router.delete(
 );
 
 router.get("/", getPosts);
+
+router.get("/:id", getPostById);
 
 export default router;
